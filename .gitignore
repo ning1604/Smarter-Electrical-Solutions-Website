@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+Thumbs.db
 
 # debug
 npm-debug.log*
@@ -39,3 +40,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# os
+.DS_Store
+.DS_Store?
+._*
+
+# project-specific: internal working docs not for public repo
+linear.app/
+smarterelec-copy.md
